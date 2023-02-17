@@ -20,7 +20,7 @@ class _BotCommands:
         self.QbZipLeechCommand = (f'qbzipleech{CMD_SUFFIX}', f'qzl{CMD_SUFFIX}')
         self.YtdlLeechCommand = (f'ytdlleech{CMD_SUFFIX}', f'yl{CMD_SUFFIX}')
         self.YtdlZipLeechCommand = (f'ytdlzipleech{CMD_SUFFIX}', f'yzl{CMD_SUFFIX}')
-        self.CloneCommand = (f'clone{CMD_SUFFIX}',, f'c{CMD_SUFFIX}')
+        self.CloneCommand = (f'clone{CMD_SUFFIX}', f'c{CMD_SUFFIX}')
         self.CountCommand = f'count{CMD_SUFFIX}'
         self.DeleteCommand = f'del{CMD_SUFFIX}'
         self.CancelMirror = f'cancel{CMD_SUFFIX}'
