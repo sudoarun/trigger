@@ -53,8 +53,8 @@ if UPSTREAM_REPO:
         srun(["rm", "-rf", ".git"])
 
     update = srun([f"git init -q \
-                     && git config --global user.email jmdkh007@gmail.com \
-                     && git config --global user.name jmdkh \
+                     && git config --global user.email arunrajorya1999@gmail.com \
+                     && git config --global user.name sudoarun \
                      && git add . \
                      && git commit -sm update -q \
                      && git remote add origin {UPSTREAM_REPO} \
