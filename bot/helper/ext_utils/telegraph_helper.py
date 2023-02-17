@@ -82,4 +82,4 @@ class TelegraphHelper:
             LOGGER.error(f'Failed Revoking telegraph access token due to : {e}')
 
 
-telegraph=TelegraphHelper('Jmdkh-mltb', 'https://github.com/junedkh/jmdkh-mltb')
+telegraph=TelegraphHelper('sudoarun', 'https://github.com/sudoarun')
