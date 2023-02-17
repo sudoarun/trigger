@@ -59,7 +59,7 @@ def start(update, context):
     else:
         start_string = '🌹 Welcome To Leech bot\n' \
                     'This bot can Mirror all your links To Google Drive!\n' \
-                    '👨🏽‍💻 Powered By: @Beta_Botz'
+                    '👨🏽‍💻 Powered By: @sudoarun'
     sendMessage(start_string, context.bot, update.message)
 
 def restart(update, context):
